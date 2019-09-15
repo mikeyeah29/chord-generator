@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Noah';
+  src: url("../fonts/NoahBold.otf") format("otf"), url("../fonts/NoahBold.ttf") format("ttf"); }
+body {
+  background-color: #efefef; }
+
+h1 {
+  font-family: "Fredoka One", cursive;
+  color: #356; }
+
+p, li, a, div {
+  font-family: "Tajawal", serif; }
+
+.btn-primary {
+  background: #ff8f39;
+  border-color: #ff8f39;
+  color: white;
+  padding: 10px 20px 5px 20px;
+  cursor: pointer;
+  border-bottom: solid 3px #d07530; }
+
+.chord-form {
+  text-align: center;
+  background: #c9d0d3;
+  padding: 20px 30px;
+  border-radius: 5px;
+  border-bottom: solid 3px #b4c0c5; }
+  .chord-form__item {
+    margin-bottom: 10px;
+    text-align: left; }
+    .chord-form__item label {
+      display: block;
+      margin-bottom: 0px; }
+
+.chord-chart {
+  background: #fff;
+  width: 100%;
+  margin-top: 40px;
+  padding: 20px; }
+
+.chord__name {
+  font-family: "Fredoka One", cursive;
+  font-size: 20px; }
+
+/*# sourceMappingURL=style.css.map */

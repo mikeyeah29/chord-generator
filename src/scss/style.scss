@@ -1,0 +1,64 @@
+// $font-url--google: 'https://fonts.googleapis.com/css?family=Fredoka+One|Tajawal&display=swap';
+
+$font-family--primary: 'Fredoka One', cursive;
+$font-family--secondary: 'Tajawal', serif;
+
+@font-face {
+  font-family: 'Noah';
+  src:  url('../fonts/NoahBold.otf') format('otf'),
+        url('../fonts/NoahBold.ttf') format('ttf');
+}
+
+body {
+	background-color: #efefef;
+}
+
+h1 {
+	font-family: $font-family--primary;
+	color: #356;
+}
+
+p, li, a, div {
+	font-family: $font-family--secondary;
+}
+
+.btn-primary {
+	background: #ff8f39;
+    border-color: #ff8f39;
+    color: white;
+    padding: 10px 20px 5px 20px;
+    cursor: pointer;
+    border-bottom: solid 3px #d07530;
+}
+
+.chord-form {
+    text-align: center;
+    background: #c9d0d3;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border-bottom: solid 3px #b4c0c5;
+	&__item {
+		margin-bottom: 10px;
+		text-align: left;
+		label {
+			display: block;
+			margin-bottom: 0px;
+		}
+	}	
+}
+
+.chord-chart {
+	background: #fff;
+	width: 100%;
+	margin-top: 40px;
+    padding: 20px;
+}
+
+.chord {
+	&__name {
+		font-family: $font-family--primary;
+		font-size: 20px;
+	}
+}
+
+
